@@ -4,14 +4,14 @@ phase:
   pre_build:
     commands:
       -npm install
-built:
-  commands:
-    -npm run built
+  built:
+    commands:
+      -npm run built
 
 artifacts:
   files:
       -"**/*"
-    discard-paths: no
-    base-directory: dist
+  discard-paths: no
+  base-directory: dist
 
     
