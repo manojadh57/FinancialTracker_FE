@@ -1,17 +1,15 @@
-version: 0.2;
+version: 0.2
 
-phase:
+phases:
   pre_build:
     commands:
-      -npm install
-  built:
+      - npm install
+  build:
     commands:
-      -npm run built
+      - npm run build
 
 artifacts:
   files:
-      -"**/*"
+    - '**/*'
   discard-paths: no
   base-directory: dist
-
-    
