@@ -142,7 +142,7 @@ const Transaction = () => {
             <Form.Check // prettier-ignore
               type="checkbox"
               onClick={(e) => {
-                handleOnCheckBox(e, t._id);
+                handleOnCheckBox(e, filteredTransactions._id);
               }}
               label="Select All"
             />
